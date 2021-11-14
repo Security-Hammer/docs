@@ -16,7 +16,7 @@ Hello there, I am Security Hammer. I will guide and help you to setup various mo
 Inviting me is same as you would do for other bots. There are two options, invite me with slash command support or without them.
 
 !!!warning Slash Commands???
-Slash commands are new way introduced by Discord to interact with bots just by typing `/`. As a word of caution, by **MArch 2022**, I will be completely moved to slash commands irrespective of MESSAGE_CREATE intent granted to me. Learn more [here](https://support-dev.discord.com/hc/en-us/articles/4404772028055-Message-Content-Privileged-Intent-for-Verified-Bots).
+Slash commands are new way introduced by Discord to interact with bots just by typing `/`. As a word of caution, by **March 2022**, I will be completely moved to slash commands irrespective of MESSAGE_CREATE intent granted to me. Learn more [here](https://support-dev.discord.com/hc/en-us/articles/4404772028055-Message-Content-Privileged-Intent-for-Verified-Bots).
 
 As of now, Slash Commands are not supported by me, but it will be added by that time.
 !!!
@@ -32,6 +32,6 @@ Slash commands are not yet implemented.
 
 ### Guides
 
-[!ref icon="shield-check" text="Verification Setup"](../guides/Verification.md)
+[!ref icon="shield-check" text="Verification Setup"](../guides/Verification)
 
 More to be come :sad:
