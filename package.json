@@ -1,5 +1,28 @@
 {
   "dependencies": {
     "retypeapp": "^1.10.0"
-  }
+  },
+  "name": "docs",
+  "description": "Documentation/guide for Security Hammer.",
+  "version": "0.0.1-beta",
+  "main": "",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Security-Hammer/docs.git"
+  },
+  "keywords": [
+    "docs",
+    "guide",
+    "shbot"
+  ],
+  "author": "Ashutosh <ashutosh@duck.com>",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/Security-Hammer/docs/issues"
+  },
+  "homepage": "https://github.com/Security-Hammer/docs#readme"
 }

@@ -1,11 +1,39 @@
 input: .
-output: .retype
-url: # Add your website address here
+output: ./build
+url: https://shbot.onrender.com
 branding:
-  title: Project Name
-  label: Docs
+  title: Security Hammer
+  label: v2.0
+edit:
+  repo: https://github.com/Security-Hammer/docs
+  label: Edit on Github
 links:
-- text: Getting Started
-  link: https://retype.com/guides/getting-started/
+- text: Invite
+  link: https://api.shbot.tk/invite
+  target: blank
+  icon: person-add
+  iconAlign: right
+- text: Discord
+  link: https://api.shbot.tk/discord
+  target: blank
+  icon: codespaces
+  iconAlign: right
+- text: Vote
+  link: https://api.shbot.tk/vote
+  target: blank
+  icon: thumbsup
+  iconAlign: right
 footer:
-  copyright: "&copy; Copyright {{ year }}. All rights reserved."
+  copyright: "&copy; Copyright {{ year }}. [Ashutosh](https://github.com/Ashutosh-3601) All rights reserved."
+  links:
+  - text: Privacy Policy
+    link: /
+integrations:
+  gravatar:
+    default: robohash
+server:
+  watch:
+    mode: disk
+api:
+  input: .
+  output: ./api
