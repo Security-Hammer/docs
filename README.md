@@ -9,7 +9,7 @@ tags: [intro]
 
 # Introduction
 
-Hello there, I am Security Hammer. I will guide and help you to setup various modules of mine (`Verification`, `Moderation` etc). In case, if something is unclear, feel free to ask in Support Server. Let's get started.
+Hello there, I am Security Hammer. I will guide and help you to setup various modules of mine (`Verification`, `Moderation` etc). In case, if something is unclear, feel free to ask in [Support Server](https://api.shbot.tk/discord). Let's get started.
 
 ### Inviting Me
 
@@ -32,6 +32,6 @@ Slash commands are not yet implemented.
 
 ### Guides
 
-[!ref icon="shield-check" text="Verification Setup"](../guides/Verification)
+[!ref icon="shield-check" text="Verification Setup"](./guides/Verification)
 
-More to be come :sad:
+More under progress :+1:
