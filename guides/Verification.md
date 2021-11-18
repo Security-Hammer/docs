@@ -12,7 +12,7 @@ tags: [verification]
 !!!danger Work In Progress
 This section is being written.
 !!!
-### Introduction
+## Introduction
 Alright, lets get started setting up without wasting time. Before you setup, it's important to know how I work.
 
 - [X] User joins the server is given `Unverified Role`
@@ -30,15 +30,25 @@ Alright, lets get started setting up without wasting time. Before you setup, it'
 Okay that's lots of  confusing :sparkles: terms :sparkles:. Don't worry, I am here to explain one by one :)
 
 !!!danger Before we start...
-I really hope you know how to manage roles, channels and most importantly dealing with their permission. If you don't, refer this video by [!badge icon="device-camera-video" iconAlign="right" text="Y0ken's Domain"](https://www.youtube.com/channel/UC4negHehVJxHKwnxX5dck5g). 
+I really hope you know how to manage roles, channels and most importantly dealing with their permission. If you don't, refer this video by [!badge text="Y0ken's Domain"](https://www.youtube.com/channel/UC4negHehVJxHKwnxX5dck5g). 
 
 [!button variant="info" target="blank" icon="link-external" text="Youtube"](https://www.youtube.com/watch?v=X1MGtTJWytg)
 !!!
 
-### Unverified Role
+## Unverified Role
 When a user joins your server, they will be given `Unverified Role` which will restrict them to see channels and their content. I will shortly discuss how to set them up. But you might be wondering now, what if I have *Membership Gating* which will be bypassed if user is given role?  That's correct, that's why I will auto-adapt if there is any sort of gating. So, if there is one I will wait for them to complete the membership, and then give them unverified role otherwise I will add the role directly.
 
-##### Setting up Unverified Role
+### Setting up Unverified Role
+Here comes the important part that is setting up. I will break this in few steps.
+- **Step 1:**
+    Create a role which you want to be given to unverified users or use an existing one, let's call it `Unverified Role`.
+- **Step 2:**
+    Next step is setting permission for `Unverified Role`. All you have to do is select channel/category, go to settings, and then select `Permissions` tab.
+- **Step 3:**
+    Select the `Unverified Role` from *Step 1*. Find the `Read Messages` permission and set it to `Deny` (you can refer the screenshot below). Save and it's done!!!
 
+| ![Unverified Role](../resources/images/UnverifiedRole.png) | 
+|:--:| 
+| *Setting Unverified Role's Permission in Category* |
 
 In short, it is role given to new users joining which will prevent them from seeing the channels.
