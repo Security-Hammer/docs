@@ -1,14 +1,14 @@
 {
   "dependencies": {
-    "retypeapp": "^1.10.0"
+    "retypeapp": "^1.11.0"
   },
   "name": "docs",
   "description": "Documentation/guide for Security Hammer.",
   "version": "0.0.1-beta",
   "main": "",
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx retype build & move build\\resources\\js\\service-worker.js build & node prebuilder.mjs & npx retype run"
   },
   "repository": {
     "type": "git",
