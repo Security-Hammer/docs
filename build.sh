@@ -27,4 +27,4 @@ echo -e "${INJECTING}"
 node prebuilder.mjs
 echo -e "${INJECTINGSUCCESS}"
 echo -e "${STARTING}"
-npx retype run
+# npx retype run
