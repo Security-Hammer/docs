@@ -1,9 +1,9 @@
 input: .
 output: ./build
-url: https://shbot.onrender.com
+url: https://shguide.onrender.com
 branding:
   title: Security Hammer
-  label: v2.0
+  label: beta
 edit:
   repo: https://github.com/Security-Hammer/docs
   label: Edit on Github
